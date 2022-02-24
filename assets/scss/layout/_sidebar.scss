@@ -1,0 +1,27 @@
+// Styles for Sidebar lies here
+.sidebar {
+    width: 100px;
+    background-color: rgb(201, 211, 211);
+    
+}
+.sidebarTop{
+    justify-content: center;
+}
+.nav-list{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.nav-item {
+    text-align: center;
+}
+
+
+.icon-square, .icon-cart, .icon-file-text2, .icon-cog {
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.icon-pagekit, .icon-exit {
+    padding: 10px;
+    font-size: 1.5rem;
+}
