@@ -1,7 +1,8 @@
 // Colors ahiya chhe
+.icon-people_alt, .icon-home, .icon-search, .icon-price-tags, .icon-stacked_line_chart {
+    color: black
+}
 
-$body-color: #000000;
-$body-bg: #f8f8f8;
-
-$border-color: #e2e2e2;
-$bg-color:grey;
+.icon-stacked_line_chart {
+    color: rgb(0, 252, 105);
+}

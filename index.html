@@ -21,12 +21,12 @@
                 <span class="icon-logo"></span>
                 <!-- <label for="searchBar"><span class="icon-search bg-color-icon"></span></label> -->
                 <span class="searchbar">
-                <input type="text" name="search-text" id="search-input">
-                <button type="button">Search</button>
+                    <input type="text" name="search-text" id="search-input"
+                        placeholder="Search for transactions, items etc.">
+                    <button class='bx bx-search'>Search</button>
                 </span>
             </div>
-            
-            
+
             <nav class="nofication">
                 <ul class="d-flex nav-list h-100">
                     <li class="nav-item-header">
@@ -100,9 +100,9 @@
                 <h1 class="main-title">Dashboard</h1>
                 <div class="d-flex flex-wrap justify-content-between">
                     <div class="d-flex flex-column stat-card">
-                        <div class="d-flex justify-content-between">
-                            <span class="icon">icon</span>
-                            <span class="icon">icon</span>
+                        <div class="d-flex justify-content-between card-content">
+                            <span class="icon-people_alt"></span>
+                            <span class="icon-stacked_line_chart"></span>
                         </div>
                         <h4 class="card-title">Total Views</h4>
                         <div class="count">308.402</div>
@@ -110,8 +110,8 @@
                     </div>
                     <div class="d-flex flex-column stat-card">
                         <div class="d-flex justify-content-between">
-                            <span class="icon">icon</span>
-                            <span class="icon">icon</span>
+                            <span class="icon-home"></span>
+                            <span class="icon-stacked_line_chart"></span>
                         </div>
                         <h4 class="card-title">Total Products</h4>
                         <div class="count">10.820</div>
@@ -119,8 +119,8 @@
                     </div>
                     <div class="d-flex flex-column stat-card">
                         <div class="d-flex justify-content-between">
-                            <span class="icon">icon</span>
-                            <span class="icon">icon</span>
+                            <span class="icon-search"></span>
+                            <span class="icon-stacked_line_chart"></span>
                         </div>
                         <h4 class="card-title">Total Users</h4>
                         <div class="count">8.425</div>
@@ -128,20 +128,21 @@
                     </div>
                     <div class="d-flex flex-column stat-card">
                         <div class="d-flex justify-content-between">
-                            <span class="icon">icon</span>
-                            <span class="icon">icon</span>
+                            <span class="icon-price-tags"></span>
+                            <span class="icon-stacked_line_chart"></span>
                         </div>
                         <h4 class="card-title">Total Sells</h4>
                         <div class="count">1.028.623</div>
                         <span>Start from 1 Jan 2021</span>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between flex-grow-1 overflow-hidden">
-                    <div class="product-stock overflow-auto h-100">
+                <div class="row d-flex justify-content-between flex-row overflow-hidden">
+                    <div class="column overflow-auto h-100">
                         <table>
                             <thead>
                                 <tr>
                                     <th class="table-cell">No</th>
+                                    <th class="table-cell"></th>
                                     <th class="table-cell">Product Name</th>
                                     <th class="table-cell">Status</th>
                                     <th class="table-cell">Sold</th>
@@ -151,6 +152,7 @@
                             <tbody>
                                 <tr class="table-row">
                                     <td class="table-cell">1</td>
+                                    <td class="table-cell"></td>
                                     <td class="table-cell">News Mobile App UI KIT F...</td>
                                     <td class="table-cell">Active</td>
                                     <td class="table-cell">10</td>
@@ -158,6 +160,7 @@
                                 </tr>
                                 <tr class="table-row">
                                     <td class="table-cell">2</td>
+                                    <td class="table-cell"></td>
                                     <td class="table-cell">40+ Landing page Temp...</td>
                                     <td class="table-cell">Active</td>
                                     <td class="table-cell">10</td>
@@ -165,6 +168,7 @@
                                 </tr>
                                 <tr class="table-row">
                                     <td class="table-cell">3</td>
+                                    <td class="table-cell">sdfsg</td>
                                     <td class="table-cell">Doctor Consultant UI KIT ...</td>
                                     <td class="table-cell">Active</td>
                                     <td class="table-cell">10</td>
@@ -172,6 +176,7 @@
                                 </tr>
                                 <tr class="table-row">
                                     <td class="table-cell">4</td>
+                                    <td class="table-cell"></td>
                                     <td class="table-cell">Startup Illustration KIT Ve...</td>
                                     <td class="table-cell">Active</td>
                                     <td class="table-cell">10</td>
@@ -179,6 +184,10 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                    <div class="column d-flex justify-content-between overflow-hidden">
+                        <div class="overflow-auto h-100">
+                        </div>
                     </div>
                 </div>
             </main>

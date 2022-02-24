@@ -1,20 +1,22 @@
 // Styles for Sidebar lies here
 .sidebar {
     width: 100px;
-    background-color: rgb(201, 211, 211);
-    
+    background-color: rgb(255, 255, 255);
 }
+
 .sidebarTop{
     justify-content: center;
 }
+
 .nav-list{
     width: 100%;
     padding-bottom: 40px;
+    border-right: 1px solid black;
 }
+
 .nav-item {
     text-align: center;
 }
-
 
 .icon-square, .icon-cart, .icon-file-text2, .icon-cog {
     padding: 30px;
